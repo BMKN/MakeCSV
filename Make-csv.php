@@ -3,7 +3,7 @@
  header("Content-Disposition: attachment;Filename=Student Data.csv");
 $file = fopen('php://output', 'w');
 fputcsv($file, array(
-    'Student Number',
+    'Student Number',//These will output the different column names 
     'Course Name',
     'Student Name',
     'Student Payment Method',
